@@ -1,8 +1,7 @@
-export const apiKey = process.env.REACT_APP_API_KEY;
 export const fetchOptions = {
   headers: {
     Accept: 'application/vnd.github+json',
-    Authorization: `Bearer ${apiKey}`,
+    Authorization: `Bearer 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`,
   },
 };
 
